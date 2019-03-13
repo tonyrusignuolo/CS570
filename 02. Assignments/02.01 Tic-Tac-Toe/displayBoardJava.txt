@@ -1,0 +1,33 @@
+public static void displayBoard() {
+		// TODO: Print the board
+		String str1 = "    ---";
+		for (int a = 1; a < COLS; a++)
+			str1 += "+---";
+
+		for (int i = 0; i < ROWS; i++) {
+			if (i == 0) {
+				String str2 = "    ";
+				
+				for (int a = 1; a <= COLS; a++) {
+					if(a/10 == 0)
+						str2 += " " + Integer.toString(a) + "  ";
+					else if(a/100 == 0)
+						str2 += Integer.toString(a) + "  ";
+					else if(a/1000 == 0)
+						str2 += Integer.toString(a) + " ";
+				}
+				System.out.println(str2);
+			}
+			
+			if(i/10 == 0)
+				System.out.print("  ");
+			else if(i/100 == 0)
+				System.out.print(" ");
+			
+			System.out.println(Integer.toString(i + 1) + " " + String.join("|", board[i]));
+
+			if (i != ROWS - 1) {
+				System.out.println(str1);
+			}
+		}
+	}

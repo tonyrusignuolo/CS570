@@ -1,0 +1,23 @@
+{
+  "name": "trie_articles",
+  "version": "1.0.0",
+  "description": "A file, companies.dat, contains a list of company names on each line. Company names may have multiple words in the name. Sometimes, a company might have multiple names associated with it. The first name is the primary name, and the remainder are synonyms. In this case, the company names will be separated by a tab on the same line. (Create a sample version of this file for your testing. The final file used for grading is not published.)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyrusignuolo/A04---Trie-Articles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyrusignuolo/A04---Trie-Articles/issues"
+  },
+  "homepage": "https://github.com/tonyrusignuolo/A04---Trie-Articles#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "prompt-sync": "^4.1.6"
+  }
+}

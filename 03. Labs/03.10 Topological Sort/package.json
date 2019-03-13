@@ -1,0 +1,22 @@
+{
+  "name": "l10---topological-sort",
+  "version": "1.0.0",
+  "description": "Question 1\r Implement the pseudocode presented in the lecture for both creating a graph and for topological sort.\r Put each algorithm into a separate function. Construct a data structure to store a graph,\r which can be based on an adjacency matrix, adjacency list, or any other underlying structure you create.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyrusignuolo/L10---Topological-Sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyrusignuolo/L10---Topological-Sort/issues"
+  },
+  "homepage": "https://github.com/tonyrusignuolo/L10---Topological-Sort#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

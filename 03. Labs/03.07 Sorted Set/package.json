@@ -1,0 +1,23 @@
+{
+  "name": "sorted_set_lab",
+  "version": "1.0.0",
+  "description": "Sorted Set Lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtlafleur/Sorted_Set_Lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtlafleur/Sorted_Set_Lab/issues"
+  },
+  "homepage": "https://github.com/jtlafleur/Sorted_Set_Lab#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "prompt-sync": "^4.1.6"
+  }
+}
